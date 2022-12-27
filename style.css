@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 100, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    width: 80%;
+    height:73%;
+    background-color:rgb(61, 59, 59);
+    display: flex;
+    transition: all 0.3s ease;
+    margin-bottom: 3.5vmax;
+    border-radius: 0.4vmax;
+}
+.container2:hover{
+    box-shadow: 0.1vmax 0.1vmax 0.5vmax 0.1vmax black;
+}
+/*  */
+.container3{
+    width: 40%;
+    height: 100%;
+    background-color:rgb(61, 59, 59);
+    background-image: url(istockphoto-1303371083-612x612-removebg-preview.png);
+    background-position: bottom;
+    background-size: 28vmax;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 1vmax 0 0 1.3vmax;
+    border-radius: 0.4vmax;
+    
+}
+.container3>Div>h5{
+    display: flex;
+    justify-content:top;
+    padding: 1.5vmax 0 0 0.8vmax;
+    color: white;        
+}
+.container3>img{
+    margin-top: 1vmax;
+    width: 2vmax;
+    height: 2vmax;
+    display: flex; 
+}
+.container3>Div>.one{
+    margin-left: 0.8vmax;
+    color: white;
+
+}
+.container3>Div>.one>span{
+color: red;
+}
+/*  */
+.container4{
+    width: 60%;
+    height: 100%;
+    background-color:rgb(209, 182, 149);
+    border-radius: 0.4vmax; 
+    /* padding: 2vmax 3vmax;    */
+}
+.container4>h1{
+   padding: 1vmax 0 0 3vmax;
+   letter-spacing: 0.1vmax;
+}
+.container4>.text1{
+    color: rgba(0, 0, 0, 0.425);
+    letter-spacing: 0.2vmax;
+}
+.container5{
+    margin-top: 0.5vmax;
+    padding: 0 0 0 3vmax;
+    width: 100%;
+    height: 36%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items:top;
+    justify-content: flex-start;
+}
+.container5>.input1{
+    padding: 0 0 4vmax 0; 
+    display: flex;
+    flex-direction: column;
+    padding: 0 7vmax 0 0;  
+}  
+.container5>.input2{
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 0 4vmax 0;  
+    padding: 0 7vmax 0 0; */
+
+}
+.input2>a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color:white;
+    padding: 0.4vmax 0 0 0.4vmax;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.input2>a:hover{
+    background-color:rgb(240, 89, 62);
+}
+.input2>a>i{
+    font-size: 1.6vmax;
+    transition: all 0.3s ease;
+}
+.input2>a>i:hover{
+    color:white;
+    
+}
+
+.type2{
+    padding: 0.7vmax 1vmax;
+    margin-top: 0.5vmax;
+    cursor: pointer;
+}
+.type1{
+    margin-top: 1vmax;
+}
+.type0{
+    margin-top: 1vmax;
+    padding: 0.3vmax ;
+}
+.type3{
+    margin-top: 2vmax;
+}
+
+.container5>.input3{
+    display: flex;
+   justify-content: end;
+   align-items: flex-end;
+}
+
+.input3{
+width: 100%;
+height: 25%;
+padding: 0.5vmax 0 0 3vmax;
+}
+.input3>nav{
+    display: flex;
+    background-color: white;
+    width: 35.2vmax;      
+}
+.input3>nav>ul{
+    display: flex;
+    list-style: none;
+    cursor: pointer;   
+}
+.input3>nav>ul>li{
+    margin: 0.2vmax;
+    justify-content: space-evenly;
+    font-size: 1.4vmax;
+    padding: 0.5vmax 0.8vmax;
+    border-radius: 0.5vmax;
+}
+.input3>nav>ul>li:hover{
+    background-color:rgb(209, 182, 149);
+}
+
+/*  */
+.container4>.input4{
+    width: 100%;
+    height: 15%;
+    background-color:white;
+    padding:0vmax;
+    margin-top: 0.5vmax;
+    border-radius: 0.5vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.input4>.but1{
+    font-size: 1.3vmax;
+    padding: 0.7vmax 2.2vmax;
+    border-radius: 2vmax;
+    border-color:rgba(53, 51, 51, 0.377) ;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.input4>.but1:hover{
+   background-color:rgba(36, 35, 35, 0.616);
+   /* border-style: none; */
+}
+
+
+
+
+
+
+
